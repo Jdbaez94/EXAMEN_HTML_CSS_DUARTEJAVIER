@@ -195,5 +195,53 @@
       font-size: 18px;
     }
   }
+
+  /* ======= ¿Quiénes somos? Section ======= */
+.quienes-somos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #ffffff;
+  }
+  
+  .quienes-somos section {
+    width: 45%;
+    min-width: 300px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .quienes-somos img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .quienes-somos h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .quienes-somos p {
+    font-size: 14px;
+    color: #222;
+    text-align: justify;
+    padding: 0 10px;
+  }
+  
+  /* ======= Responsive Design ======= */
+  @media screen and (max-width: 768px) {
+    .quienes-somos {
+      flex-direction: column;
+      padding: 30px 20px;
+    }
+  
+    .quienes-somos section {
+      width: 100%;
+    }
+  }
+  
   
   
